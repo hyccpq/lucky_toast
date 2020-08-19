@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - lucky_toast (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - lucky_toast (from `.symlinks/plugins/lucky_toast/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  lucky_toast:
+    :path: ".symlinks/plugins/lucky_toast/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  lucky_toast: 606c5fac2f719fe862db25261a5835d0d91a5561
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.8.4
