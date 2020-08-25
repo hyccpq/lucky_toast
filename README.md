@@ -1,6 +1,7 @@
 # lucky_toast 😄
 
 A customizable toast library using flutter.
+Advantage: easy to customize the animation
 
 ### Language: English | [中文简体](README_zh.md)
 
