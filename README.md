@@ -54,7 +54,7 @@ LuckyToast.simpleShow('xxxx', duration: Duration(seconds: 5));
 LuckyToast.dismiss;
 ```
 
-### Custom animation
+### CustomAnimation
 
 #### 1. create animation
 
