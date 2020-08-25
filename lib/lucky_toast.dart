@@ -8,6 +8,8 @@ export 'package:lucky_toast/toast/toast_animate.dart';
 class LuckyToast {
   static LuckyToast _instance = LuckyToast();
 
+  Duration _showDuration = const Duration(seconds: 2);
+
   static void simpleShow(String msg, {Duration duration}) {
     _instance._showToast(msg, duration: duration);
   }
@@ -43,7 +45,7 @@ class LuckyToast {
         overlayState: overlayState,
         overlayEntry: overlayEntry,
         animationController: animationController,
-        duration: duration)
+        duration: duration ?? _showDuration)
       ..show();
   }
 }
@@ -53,14 +55,16 @@ class LuckyToastCtxGet extends StatelessWidget {
 
   final TextDirection textDirection;
 
-  LuckyToastCtxGet({
-    Key key,
-    @required this.child,
-    this.textDirection = TextDirection.ltr,
-    ToastAnimatedBase toastAnimated,
-  }) : super(key: key) {
+  LuckyToastCtxGet(
+      {Key key,
+      @required this.child,
+      this.textDirection = TextDirection.ltr,
+      ToastAnimatedBase toastAnimated,
+      Duration showDuration})
+      : super(key: key) {
     LuckyToast._instance.toastAnimated =
         toastAnimated ?? DefaultToastAnimation();
+    LuckyToast._instance._showDuration ??= showDuration;
   }
 
   @override
