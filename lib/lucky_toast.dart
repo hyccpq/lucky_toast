@@ -64,7 +64,7 @@ class LuckyToastCtxGet extends StatelessWidget {
       : super(key: key) {
     LuckyToast._instance.toastAnimated =
         toastAnimated ?? DefaultToastAnimation();
-    LuckyToast._instance._showDuration ??= showDuration;
+    if (showDuration != null) LuckyToast._instance._showDuration = showDuration;
   }
 
   @override

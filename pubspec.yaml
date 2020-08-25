@@ -1,8 +1,8 @@
 name: lucky_toast
 description: A new flutter plugin project.
-version: 0.1.0
+version: 0.1.1
 author: hyccpq
-homepage:
+homepage: https://github.com/hyccpq/lucky_toast
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

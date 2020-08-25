@@ -4,7 +4,7 @@ import 'package:lucky_toast/lucky_toast.dart';
 import 'package:lucky_toast_example/toast_animate.dart';
 
 void main() {
-  runApp(LuckyToastCtxGet(child: MyApp()));
+  runApp(LuckyToastCtxGet(child: MyApp(), showDuration: Duration(seconds: 1)));
 }
 
 class MyApp extends StatefulWidget {
