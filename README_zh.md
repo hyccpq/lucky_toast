@@ -4,13 +4,9 @@
 
 ### Language: [English](README.md) | 中文简体
 
-### 示例
+### web 示例
 
-**[Sample project](example)**
-
-### 在线 web demo
-
-施工中...
+**[Sample project](https://hyccpq.github.io/lucky_toast/)**
 
 ### 效果图
 

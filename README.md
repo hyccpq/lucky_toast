@@ -5,9 +5,9 @@ Advantage: easy to customize the animation
 
 ### Language: English | [中文简体](README_zh.md)
 
-### Example
+### Web Example
 
-**[Sample project](example)**
+**[Sample project](https://hyccpq.github.io/lucky_toast/)**
 
 ### Renderings
 
